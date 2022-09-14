@@ -52,6 +52,36 @@ body {
   display: inline-block;
   padding: 24px 49px;
 }
+
 .link a:not(:last-child) {
   margin-right: 25px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+  width: 692px;
+  padding-bottom: 10px;
+}
+
+.subtitle:not(:last-child) {
+  margin-bottom: 40px;
 }
