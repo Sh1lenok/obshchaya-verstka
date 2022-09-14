@@ -15,29 +15,15 @@ a {
 
 img {
 	max-width: 100%;
-  display: block;
-  margin-bottom: 50px;
 }
 
 body {
 	font-family: 'font', sans-serif;
 }
-main-content {
-    display: flex;
 
-  flex-direction: column;
-
-  align-items: center;
-
-  justify-content: center;
-
-  min-height: 100vh;
-
-  color: #fff;
-
-  background-color: #070217;
-}
 .main-content {
+  display: flex;
+
   flex-direction: column;
 
   align-items: center;
@@ -50,8 +36,20 @@ main-content {
 
   background-color: #070217;
 }
-.link {
+
+.logo {
   display:block;
   margin-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
+.link {
+  display: block;
+  margin-bottom: 50px;
+ }
+ .link2 {
+  display: inline-block;
+padding: 24px 49px;
+margin: 25px;
+}
+
 
