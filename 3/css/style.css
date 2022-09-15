@@ -108,11 +108,12 @@ li:not(:last-child) {
 }
 
 img:not(.image) {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 figure {
   display: inline-block;
   margin-bottom: 40px;
+  margin-left: 0px;  /*Применил этот стиль, пптому что изображение было с отступом слева. */
   width: 872px;
 }
