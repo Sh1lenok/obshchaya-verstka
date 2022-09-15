@@ -114,6 +114,7 @@ img:not(.image) {
 figure {
   display: inline-block;
   margin-bottom: 40px;
-  margin-left: 0px;  /*Применил этот стиль, пптому что изображение было с отступом слева. */
+  margin-left: 0px;
+  /*Применил этот стиль, пптому что изображение было с отступом слева. */
   width: 872px;
 }
