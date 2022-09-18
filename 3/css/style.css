@@ -23,38 +23,32 @@ body {
 
 .main-content {
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
-
   justify-content: center;
-
   min-height: 100vh;
-
   color: #fff;
-
   background-color: #070217;
 }
 
-.logo {
+.logo-link {
   display: block;
   margin-bottom: 50px;
-  /* padding-bottom: 50px; */
+}
+
+.group-links {
+  display: block;
+  margin-bottom: 50px;
 }
 
 .link {
-  display: block;
-  margin-bottom: 50px;
-}
-
-.link a {
   display: inline-block;
   padding: 24px 49px;
+  margin-right: 25px;
 }
 
-.link a:not(:last-child) {
-  margin-right: 25px;
+.link:last-child {
+  margin-right: 0;
 }
 
 .container {
@@ -63,58 +57,50 @@ body {
   width: 1170px;
 }
 
-p {
+.paragraph {
   margin: 0;
   margin-bottom: 40px;
   width: 872px;
-
 }
 
-h1 {
+.main-header {
   margin-bottom: 40px;
 }
 
-.subtitle {
+.gray-block {
   border-radius: 20px;
   padding: 30px;
   background-color: #f3f3f3;
-
-}
-
-.subtitle p {
-  width: 692px;
-  padding-bottom: 10px;
-}
-
-.subtitle:not(:last-child) {
   margin-bottom: 40px;
 }
 
+.gray-block:last-child {
+  margin-bottom: 0;
+}
 
-h2 {
+.gray-block .paragraph {
+  width: 692px;
   margin-bottom: 10px;
 }
 
-h3 {
+.subtitle2 {
   margin-bottom: 10px;
 }
 
-ul {
+.subtitle3 {
+  margin-bottom: 10px;
+}
+
+.list {
   padding-left: 15px;
 }
 
-li:not(:last-child) {
+.list .list-title:not(:last-child) {
   margin-bottom: 20px;
 }
 
-img:not(.image) {
-  margin-bottom: 40px;
-}
-
-figure {
+.image {
   display: inline-block;
   margin-bottom: 40px;
-  margin-left: 0px;
-  /*Применил этот стиль, пптому что изображение было с отступом слева. */
-  width: 872px;
+  width: 872;
 }
